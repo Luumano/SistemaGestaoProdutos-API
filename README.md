@@ -21,8 +21,8 @@ Esta é uma API REST desenvolvida para gerenciamento de pedidos de um e-commerce
 ## Como Executar o Projeto
 ### 1. Clonar o Repositório
 ```sh
-git clone https://github.com/Luumano/SSistemaGestaoProdutos-API.git
-cd Sistema-E-commerce-Api
+git clone https://github.com/Luumano/SistemaGestaoProdutos-API.git
+cd SistemaGestaoProdutos-API
 ```
 
 ### 2. Executar a API
