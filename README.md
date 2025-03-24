@@ -1,7 +1,7 @@
 # Sistema de Gestão de Pedidos - API REST
 
 ## Descrição
-Esta é uma API REST desenvolvida para gerenciamento de pedidos de um e-commerce simples. O sistema permite cadastrar produtos, clientes, pedidos e pagamentos, aplicando conceitos de uma **Pirâmide de Testes** que foi utizado o mesmo projeto para o de API, para garantir a qualidade do código.
+Esta é uma API REST desenvolvida para gerenciamento de produto de um e-commerce simples. O sistema permite cadastrar produtos, clientes, pedidos e pagamentos, aplicando conceitos de uma **Pirâmide de Testes** que foi utizado o mesmo projeto para o de API, para garantir a qualidade do código.
 
 ## Funcionalidades
 - **Gerenciamento de Produtos**
