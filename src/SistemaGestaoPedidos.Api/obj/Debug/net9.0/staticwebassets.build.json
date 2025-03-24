@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "z3di7sXwITKzUWOYoNWpR6g0zZhlWZqECx/aQNmmuF8=",
+  "Source": "SistemaGestaoPedidos.Api",
+  "BasePath": "_content/SistemaGestaoPedidos.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

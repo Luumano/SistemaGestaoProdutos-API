@@ -1,0 +1,16 @@
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\bin\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.deps.json
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\bin\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.dll
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\bin\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.pdb
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\bin\Debug\net9.0\SistemaGestaoPedidos.Core.dll
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\bin\Debug\net9.0\SistemaGestaoPedidos.Core.pdb
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.AssemblyInfo.cs
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.sourcelink.json
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaG.5BF67AE3.Up2Date
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.dll
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\refint\SistemaGestaoPedidos.Infrastructure.dll
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\SistemaGestaoPedidos.Infrastructure.pdb
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Infrastructure\obj\Debug\net9.0\ref\SistemaGestaoPedidos.Infrastructure.dll

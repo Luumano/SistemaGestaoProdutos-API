@@ -1,0 +1,139 @@
+[
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.PagamentoController",
+    "Method": "ObterPagamentos",
+    "RelativePath": "api/pagamentos",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.PagamentoController",
+    "Method": "CriarPagamento",
+    "RelativePath": "api/pagamentos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagamento",
+        "Type": "SistemaGestaoPedidos.Core.Entidades.Pagamento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.PagamentoController",
+    "Method": "ObterPagamemtoPorId",
+    "RelativePath": "api/pagamentos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.PagamentoController",
+    "Method": "AprovarPagamento",
+    "RelativePath": "api/pagamentos/{id}/aprovar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.PagamentoController",
+    "Method": "RejeitarPagamento",
+    "RelativePath": "api/pagamentos/{id}/rejeitar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.ProdutoController",
+    "Method": "ObterProdutos",
+    "RelativePath": "api/produto",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.ProdutoController",
+    "Method": "CriarProduto",
+    "RelativePath": "api/produto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produto",
+        "Type": "SistemaGestaoPedidos.Core.Entidades.Produto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.ProdutoController",
+    "Method": "ObterProdutoPorId",
+    "RelativePath": "api/produto/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SistemaGestaoPedidos.Api.Controllers.ProdutoController",
+    "Method": "AtualizarEstoque",
+    "RelativePath": "api/produto/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantidade",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

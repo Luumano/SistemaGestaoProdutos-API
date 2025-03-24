@@ -1,0 +1,12 @@
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\bin\Debug\net9.0\SistemaGestaoPedidos.Core.deps.json
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\bin\Debug\net9.0\SistemaGestaoPedidos.Core.dll
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\bin\Debug\net9.0\SistemaGestaoPedidos.Core.pdb
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\SistemaGestaoPedidos.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\SistemaGestaoPedidos.Core.AssemblyInfoInputs.cache
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\SistemaGestaoPedidos.Core.AssemblyInfo.cs
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\SistemaGestaoPedidos.Core.csproj.CoreCompileInputs.cache
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\SistemaGestaoPedidos.Core.sourcelink.json
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\SistemaGestaoPedidos.Core.dll
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\refint\SistemaGestaoPedidos.Core.dll
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\SistemaGestaoPedidos.Core.pdb
+C:\Users\mgerm\SistemaGestaoPedidos\src\SistemaGestaoPedidos.Core\obj\Debug\net9.0\ref\SistemaGestaoPedidos.Core.dll

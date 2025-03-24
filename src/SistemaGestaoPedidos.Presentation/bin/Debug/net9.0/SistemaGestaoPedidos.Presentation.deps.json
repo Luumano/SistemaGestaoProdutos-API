@@ -1,0 +1,72 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SistemaGestaoPedidos.Presentation/1.0.0": {
+        "dependencies": {
+          "SistemaGestaoPedidos.Application": "1.0.0"
+        },
+        "runtime": {
+          "SistemaGestaoPedidos.Presentation.dll": {}
+        }
+      },
+      "SistemaGestaoPedidos.Application/1.0.0": {
+        "dependencies": {
+          "SistemaGestaoPedidos.Core": "1.0.0",
+          "SistemaGestaoPedidos.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SistemaGestaoPedidos.Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaGestaoPedidos.Core/1.0.0": {
+        "runtime": {
+          "SistemaGestaoPedidos.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SistemaGestaoPedidos.Infrastructure/1.0.0": {
+        "dependencies": {
+          "SistemaGestaoPedidos.Core": "1.0.0"
+        },
+        "runtime": {
+          "SistemaGestaoPedidos.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaGestaoPedidos.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaGestaoPedidos.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaGestaoPedidos.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaGestaoPedidos.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

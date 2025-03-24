@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A9838D0-2806-4BBC-9AF7-17A2A521A700}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.Core", "src\SistemaGestaoPedidos.Core\SistemaGestaoPedidos.Core.csproj", "{9EF01DDF-3874-45A7-ADBE-8221CDF85E63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.Infrastructure", "src\SistemaGestaoPedidos.Infrastructure\SistemaGestaoPedidos.Infrastructure.csproj", "{5C6E7D87-4270-4FA5-A30B-25F0CF301E4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.Application", "src\SistemaGestaoPedidos.Application\SistemaGestaoPedidos.Application.csproj", "{E18BE37B-F329-4B19-BEC9-31A17E8EF7D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.Presentation", "src\SistemaGestaoPedidos.Presentation\SistemaGestaoPedidos.Presentation.csproj", "{5C7A452F-522B-4705-9A5D-D36DCE8D190F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A9C27D7B-1EAF-44C2-AA11-E871F0E3AD76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.UnitTests", "tests\SistemaGestaoPedidos.UnitTests\SistemaGestaoPedidos.UnitTests.csproj", "{0B5462AE-DA00-467D-B142-74FDDD99322B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.IntegrationTests", "tests\SistemaGestaoPedidos.IntegrationTests\SistemaGestaoPedidos.IntegrationTests.csproj", "{B1292600-8040-4562-8E75-2DE7E3B2C724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.AcceptanceTests", "tests\SistemaGestaoPedidos.AcceptanceTests\SistemaGestaoPedidos.AcceptanceTests.csproj", "{9A8969E6-B8D4-4F17-BC41-60518F3670E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.Tests", "tests\SistemaGestaoPedidos.Tests\SistemaGestaoPedidos.Tests.csproj", "{3E783637-2FA1-4296-8281-0C113B2B1A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaGestaoPedidos.Api", "src\SistemaGestaoPedidos.Api\SistemaGestaoPedidos.Api.csproj", "{90655C14-8491-41B4-AF18-AEFFBF814E62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF01DDF-3874-45A7-ADBE-8221CDF85E63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF01DDF-3874-45A7-ADBE-8221CDF85E63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF01DDF-3874-45A7-ADBE-8221CDF85E63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF01DDF-3874-45A7-ADBE-8221CDF85E63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C6E7D87-4270-4FA5-A30B-25F0CF301E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C6E7D87-4270-4FA5-A30B-25F0CF301E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C6E7D87-4270-4FA5-A30B-25F0CF301E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C6E7D87-4270-4FA5-A30B-25F0CF301E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18BE37B-F329-4B19-BEC9-31A17E8EF7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18BE37B-F329-4B19-BEC9-31A17E8EF7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18BE37B-F329-4B19-BEC9-31A17E8EF7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18BE37B-F329-4B19-BEC9-31A17E8EF7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C7A452F-522B-4705-9A5D-D36DCE8D190F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C7A452F-522B-4705-9A5D-D36DCE8D190F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C7A452F-522B-4705-9A5D-D36DCE8D190F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C7A452F-522B-4705-9A5D-D36DCE8D190F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B5462AE-DA00-467D-B142-74FDDD99322B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B5462AE-DA00-467D-B142-74FDDD99322B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B5462AE-DA00-467D-B142-74FDDD99322B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B5462AE-DA00-467D-B142-74FDDD99322B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1292600-8040-4562-8E75-2DE7E3B2C724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1292600-8040-4562-8E75-2DE7E3B2C724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1292600-8040-4562-8E75-2DE7E3B2C724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1292600-8040-4562-8E75-2DE7E3B2C724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8969E6-B8D4-4F17-BC41-60518F3670E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8969E6-B8D4-4F17-BC41-60518F3670E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8969E6-B8D4-4F17-BC41-60518F3670E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8969E6-B8D4-4F17-BC41-60518F3670E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E783637-2FA1-4296-8281-0C113B2B1A2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E783637-2FA1-4296-8281-0C113B2B1A2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E783637-2FA1-4296-8281-0C113B2B1A2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E783637-2FA1-4296-8281-0C113B2B1A2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90655C14-8491-41B4-AF18-AEFFBF814E62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90655C14-8491-41B4-AF18-AEFFBF814E62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90655C14-8491-41B4-AF18-AEFFBF814E62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90655C14-8491-41B4-AF18-AEFFBF814E62}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EF01DDF-3874-45A7-ADBE-8221CDF85E63} = {2A9838D0-2806-4BBC-9AF7-17A2A521A700}
+		{5C6E7D87-4270-4FA5-A30B-25F0CF301E4B} = {2A9838D0-2806-4BBC-9AF7-17A2A521A700}
+		{E18BE37B-F329-4B19-BEC9-31A17E8EF7D4} = {2A9838D0-2806-4BBC-9AF7-17A2A521A700}
+		{5C7A452F-522B-4705-9A5D-D36DCE8D190F} = {2A9838D0-2806-4BBC-9AF7-17A2A521A700}
+		{0B5462AE-DA00-467D-B142-74FDDD99322B} = {A9C27D7B-1EAF-44C2-AA11-E871F0E3AD76}
+		{B1292600-8040-4562-8E75-2DE7E3B2C724} = {A9C27D7B-1EAF-44C2-AA11-E871F0E3AD76}
+		{9A8969E6-B8D4-4F17-BC41-60518F3670E9} = {A9C27D7B-1EAF-44C2-AA11-E871F0E3AD76}
+		{3E783637-2FA1-4296-8281-0C113B2B1A2E} = {A9C27D7B-1EAF-44C2-AA11-E871F0E3AD76}
+		{90655C14-8491-41B4-AF18-AEFFBF814E62} = {2A9838D0-2806-4BBC-9AF7-17A2A521A700}
+	EndGlobalSection
+EndGlobal
