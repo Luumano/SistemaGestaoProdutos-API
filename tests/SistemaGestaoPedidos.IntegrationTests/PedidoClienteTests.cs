@@ -5,7 +5,7 @@ namespace SistemaGestaoPedidos.IntegrationTests;
 public class PedidoClienteTests
 {
     [Fact]
-    public void CriarPedido_DeveAssociarAoCliente_Corretamente()
+    public void CriarPedido()
     {
         // Arrange
         var cliente = new Cliente("João Kauê", "kaue@gmail.com");
