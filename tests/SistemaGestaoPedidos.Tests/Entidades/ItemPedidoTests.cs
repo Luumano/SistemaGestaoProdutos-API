@@ -10,7 +10,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 	public class ItemPedidoTests
 	{
 		[Fact]
-		public void ItemPedido_DeveCalcularValorTotalCorretamente()
+		public void ValorTotal()
 		{
 			// Arrange
 			var item = new ItemPedido("Produto X", 20m, 3);
@@ -23,7 +23,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void ItemPedido_DeveTerIdUnico()
+		public void ItemPedidoIdUnico()
 		{
 			// Arrange
 			var item1 = new ItemPedido("Produto A", 10m, 1);
