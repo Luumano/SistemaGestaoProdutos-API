@@ -10,7 +10,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 	public class PedidoTests
 	{
 		[Fact]
-		public void Pedido_DeveIniciarComStatusPendente()
+		public void StatusPendente()
 		{
 			var cliente = new Cliente("João Silva", "joao@email.com");
 			var pedido = new Pedido(cliente);
@@ -19,7 +19,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_NaoPodeSerConfirmadoSemItens()
+		public void ConfirmadoSemItens()
 		{
 			var cliente = new Cliente("Maria Souza", "maria@email.com");
 			var pedido = new Pedido(cliente);
@@ -29,7 +29,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_DeveCalcularValorTotalCorretamente()
+		public void CalcularValorTotal()
 		{
 			var cliente = new Cliente("Carlos Mendes", "carlos@email.com");
 			var pedido = new Pedido(cliente);
@@ -42,7 +42,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_DeveMudarParaStatusConfirmado_AoConfirmar()
+		public void StatusConfirmado()
 		{
 			var cliente = new Cliente("Ana Clara", "ana@email.com");
 			var pedido = new Pedido(cliente);
@@ -54,7 +54,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_NaoPodeAdicionarItemComQuantidadeNegativa()
+		public void ItemComQuantidadeNegativa()
 		{
 			var cliente = new Cliente("Roberto Dias", "roberto@email.com");
 			var pedido = new Pedido(cliente);
@@ -65,7 +65,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_DevePermitirAdicionarVariosItens()
+		public void AdicionarVariosItens()
 		{
 			var cliente = new Cliente("Fernanda Lima", "fernanda@email.com");
 			var pedido = new Pedido(cliente);
@@ -77,7 +77,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_NaoPodeSerCanceladoSeJaConfirmado()
+		public void Cancelado()
 		{
 			var cliente = new Cliente("Paulo Henrique", "paulo@email.com");
 			var pedido = new Pedido(cliente);
@@ -89,7 +89,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_DeveMudarParaStatusCancelado_SeNaoConfirmado()
+		public void StatusCancelado()
 		{
 			var cliente = new Cliente("Gabriela Nunes", "gabriela@email.com");
 			var pedido = new Pedido(cliente);
@@ -101,7 +101,7 @@ namespace SistemaGestaoPedidos.Tests.Entidades
 		}
 
 		[Fact]
-		public void Pedido_NaoDevePermitirAdicionarItem_AposConfirmacao()
+		public void PermitirAdicionarItem() // Não permitir adicionar item após a confirmação
 		{
 			var cliente = new Cliente("Julio Cesar", "julio@email.com");
 			var pedido = new Pedido(cliente);
